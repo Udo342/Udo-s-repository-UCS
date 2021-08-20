@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Bilbo&display=swap');
+
 html, body{
     height: 100%;
 }
-body{
+body p{
     margin: 25px;
     padding: 0px;
 }
@@ -17,27 +19,37 @@ table, th, td {
     color: whitesmoke;
     padding: 10px;
 }
+table th, td{
+    font-family: 'Bilbo', cursive;
+        font-size: 2em;
+}
+table {margin: 25px;
+    padding: 0px;}
 header, footer {
     background-color: rgb(24, 102, 94);
 }
 h1{
     position: relative;
     top: 25px;
-    left: 530px;
+    left: 490px;
     display: inline-block;
-    font-size: 2.5em
+    font-size: 2.5em;
+    text-shadow: -1px -1px 0 tomato, 1px -1px 0 tomato, -1px 1px 0 tomato, 1px 1px 0 tomato;
+    color: whitesmoke;
+    font-family: 'Beth Ellen', cursive;
 }
-h1, h2, h3 {color: whitesmoke;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        text-shadow: -1px -1px 0 tomato, 1px -1px 0 tomato, -1px 1px 0 tomato, 1px 1px 0 tomato;
-        font-family: 'Lobster', cursive;
+ h2, h3 {color: whitesmoke;
+    text-shadow: -1px -1px 0 rgb(24, 102, 94), 1px -1px 0 rgb(24, 102, 94), -1px 1px 0 rgb(24, 102, 94), 1px 1px 0 rgb(24, 102, 94);
+         font-family: 'Beth Ellen', cursive;
     }
     body {background-color: black;}
     p {
         color: whitesmoke;
-        text-shadow: -1px -1px 0 rgb(24, 102, 94), 1px -1px 0 rgb(24, 102, 94), -1px 1px 0 rgb(24, 102, 94), 1px 1px 0 rgb(24, 102, 94);
         font-size: large;
-        font-family: 'crimson text';
+        font-family: 'Bilbo', cursive;
+        font-size: 2em;
+        word-spacing: 5px;
+        line-height: 120%;
         }
         #shift {
             position: relative;
@@ -70,5 +82,57 @@ li, ul {
         width: 100%;
         height: 65px;
         background-color: tomato;
-
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 15px;
     }
+    nav a{
+        color:whitesmoke;
+        font-family: 'Beth Ellen', cursive;
+    }
+    nav a:hover{
+    color:rgb(24, 102, 94);
+    font-size: 23px;
+    }
+    .hypertext{
+        color: whitesmoke;
+        display: inline-block;
+    }
+    .hypertext:hover {
+        color:rgb(24, 102, 94);
+        font-size: 30px;
+    }
+ .subhead{
+    text-shadow: -1px -1px 0 tomato, 1px -1px 0 tomato, -1px 1px 0 tomato, 1px 1px 0 tomato;
+    font-family: 'Beth Ellen', cursive;
+ }
+ .overlay {
+     position:relative;
+     display: block;
+     background-color: black;
+ }
+ .overlay form{
+     position: absolute;
+     top: 25px;
+     left: 20px;
+    color: whitesmoke;
+    font-family: 'Bilbo', cursive;
+    font-size: 2em;
+    word-spacing: 5px;
+    line-height: 120%
+ }
+ #img{
+     opacity: 0.2;
+ }
+ #formheading{
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 rgb(24, 102, 94), 1px -1px 0 rgb(24, 102, 94), -1px 1px 0 rgb(24, 102, 94), 1px 1px 0 rgb(24, 102, 94);
+         font-family: 'Beth Ellen', cursive;
+         text-align: center;
+         position: relative; left: 140px;
+}
+.txtbx{
+    font-size: 18pt;
+    font-family: monospace;
+}
